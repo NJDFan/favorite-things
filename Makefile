@@ -1,13 +1,13 @@
 RSTFILE=Conversions.rst
 LTXFILE=Conversions.ltx
-INTERMEDIATE=Conversions.aux Conversions.log  Conversions.out
+INTERMEDIATE=Conversions.aux Conversions.log Conversions.out
 PDFFILE=Conversions.pdf
 
 .phony: all clean
 
 all: $(PDFFILE)
 
-$(PDFFFILE) $(INTERMEDIATE): $(LTXFILE)
+$(PDFFILE) $(INTERMEDIATE): $(LTXFILE)
 	pdflatex $(LTXFILE)
 	
 $(LTXFILE): $(RSTFILE)
