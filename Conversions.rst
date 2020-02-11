@@ -27,6 +27,10 @@ Conversions
 Equations
 =========
 
+.. raw:: latex
+
+   \begin{multicols}{2}
+
 .. math::
 
    V = I R = L \frac{dI}{dt} = \frac{1}{C} \int I dt
@@ -47,6 +51,9 @@ Equations
    
    E_{noise} = \sqrt{4 R k T \Delta F} \approx 128 \frac{\text {pV}}{\sqrt{\Omega \text{Hz}}} \sqrt{R} \text{ at 25 \textdegree C}
   
+.. raw:: latex
+
+   \end{multicols}
 ..
 
 .. |date| date:: %d-%b-%Y
