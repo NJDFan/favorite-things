@@ -3,24 +3,26 @@ A Few Of My Favorite Things
 ===========================
 
 :Author:	Rob Gaddi, Highland Technology
-:Date:		11-Jun-2018
+:Date:		|date|
 
 Conversions
 ===========
 
-========  ========  ===  ========  ========
-   N        Unit     =      N        Unit
---------  --------  ---  --------  --------
-100       mil            2.54      mm
-1         mm             39.37     mil
-1         oz Cu          1.4       mil
-1         H              1         V*s/A
-1         F              1         A*s/V
-1         *c*            300       m/µs
-1         *c*            11.8      inch/ns
-1         Vrms           2.8       Vp-p
-1         Vp-p           0.353     Vrms
-========  ========  ===  ========  ========
+========  =========  ===  ========  =========
+   N        Unit      =      N        Unit
+--------  ---------  ---  --------  ---------
+100       mil             2.54      mm
+1         mm              39.37     mil
+1         oz Cu           1.4       mil
+1         H               1         V*s/A
+1         F               1         A*s/V
+1         *c*             300       m/µs
+1         *c*             11.8      inch/ns
+1         Vrms            2.8       Vp-p
+1         Vp-p            0.353     Vrms
+1         Vrms            13        dBm (50R)
+0         dBm (50R)       0.2236    Vrms
+========  =========  ===  ========  =========
 
 Equations
 =========
@@ -43,5 +45,8 @@ Equations
 
    Q_{par} = \frac{1}{Q_{ser}}
    
-   E_{noise} = \sqrt{4 R k T \Delta F} \approx \frac{128 pV}{\sqrt{\Omega Hz}} \sqrt{R} \text{ at 25 \textdegree C}
-   
+   E_{noise} = \sqrt{4 R k T \Delta F} \approx 128 \frac{\text {pV}}{\sqrt{\Omega \text{Hz}}} \sqrt{R} \text{ at 25 \textdegree C}
+  
+..
+
+.. |date| date:: %d-%b-%Y
